@@ -1,0 +1,46 @@
+div{
+    background-color:#a1b5cb;
+    text-align: center;
+    
+    
+}
+.caract{
+    background-color: aqua;
+    
+}
+img{
+    width: 350px;
+}
+.row{
+    padding :20px;   
+}
+/*de 576 para arriba mostra para medio y grande*/
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        border-radius: 100%;
+        width: 225px;
+        top: 490px;
+        left: 45px;
+        
+
+    }
+}
+/*de chico hata 575 px mostrar para movil */
+@media (max-width: 575px){
+    #fotoPerfil{
+        position: absolute;
+        border-radius: 100%;
+        width: 300px;
+        top: 940px;
+        right: 120px;
+
+    }
+}
+
+#nombre{
+    font-weight:bold;
+    margin-top: 30%;
+    
+    
+}
